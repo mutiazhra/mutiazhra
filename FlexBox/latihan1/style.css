@@ -1,0 +1,25 @@
+.container {
+    width: 600px;
+   /* height: 400px; */
+    border: 5px solid #333;
+    margin: 30px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+   /* flex-direction: column-revers; */
+   /* flex-wrap: wrap; */
+   /* justify-content: space-evenly; */
+   align-items: baseline;
+}
+
+.container div {
+    width: 120px;
+    height: 120px;
+    background-color: rgb(19, 133, 255);
+    margin: 2px;
+}
+
+.satu {order: 3;}
+.dua {order: 4;}
+.tiga {order: 2;}
+.empat {order: 1;}

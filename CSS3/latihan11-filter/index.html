@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS3 Filter</title>
+	<style>
+		body{
+			text-align: center;
+		}
+		/* Filter
+			blur(px)
+			brightness(angka | %)
+			contrast(angka | %)
+			saturate(angka | %)
+			grayscale(angka | %)
+			sepia(angka | %)
+			hue-rotate(deg)
+			invert(angka | %)
+			opacity(angka | %)
+			drop-shadow(angka | %) (sama sprt box-shadow)
+		*/
+		img {
+			filter: blur(5px) grayscale(100%) ;
+			transition: 1s;
+		}
+		img:hover {
+			filter: blur(0) grayscale(0) ;
+		}
+	</style>
+</head>
+<body>
+
+	<img src="img.jpg" alt="Aestethic picture">
+
+</body>
+</html>
